@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "type": "Science",
+    "title": "Neural the Brainy Explorer",
+    "description": "Neural Network of the Brain",
+    "time": "45 minutes",
+    "color": "#ef9a9a "
+    
+  },
+  {
+    "id": 2,
+    "type": "Maths",
+    "title": "Counts the Number Wizard",
+    "description": "Derivatives & Integrals",
+    "time": "30 minutes",
+    "color": "violet"
+  },
+  {
+    "id": 3,
+    "type": "English Literature",
+    "title": "Verba the Vocabulary",
+    "description": "language",
+    "time": "30 minutes",
+    "color": "lightblue"
+  },
+  {
+    "id": 4,
+    "type": "Science",
+    "title": "The Math Magician",
+    "description": "The World of Math",
+    "time": "60 minutes",
+    "color": "green"
+  },
+  {
+    "id": 5,
+    "type": "Science",
+    "title": "The AI Guru",
+    "description": "The World of AI",
+    "time": "60 minutes",
+    "color": "red"
+  },
+  {
+    "id": 6,
+    "type": "Science",
+    "title": "The Physics Guru",
+    "description": "The World of Physics",
+    "time": "60 minutes",
+    "color": "#a7ffeb"
+  }
+]
