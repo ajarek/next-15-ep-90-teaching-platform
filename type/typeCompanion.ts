@@ -1,8 +1,10 @@
 export type TypeCompanion = {
-  id?: number
-  type: string
-  title: string
-  description: string
-  time: string
-  color: string
+   id?: number,
+    topic: string,
+    name: string,
+    subject: string,
+    duration: number,
+    style: string,
+    voice?: string,
+    completed?: boolean,
 }

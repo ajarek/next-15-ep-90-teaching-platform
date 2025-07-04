@@ -1,51 +1,114 @@
 [
   {
     "id": 1,
-    "type": "Science",
-    "title": "Neural the Brainy Explorer",
-    "description": "Neural Network of the Brain",
-    "time": "45 minutes",
-    "color": "#ef9a9a "
+    "topic": "Science",
+    "name": "Neural the Brainy Explorer",
+    "subject": "Neural Network of the Brain",
+    "duration": 45,
+    "style": "#fce4ec",
+    "voice":"male",
+    "completed":true
     
   },
   {
     "id": 2,
-    "type": "Maths",
-    "title": "Counts the Number Wizard",
-    "description": "Derivatives & Integrals",
-    "time": "30 minutes",
-    "color": "violet"
+    "topic": "Maths",
+    "name": "Counts the Number Wizard",
+    "subject": "Derivatives & Integrals",
+    "duration": 30,
+    "style": "violet",
+    "voice":"male",
+    "completed":false
   },
   {
     "id": 3,
-    "type": "English Literature",
-    "title": "Verba the Vocabulary",
-    "description": "language",
-    "time": "30 minutes",
-    "color": "lightblue"
+    "topic": "Economics",
+    "name": "The Market Maestro",
+    "subject": "The Basics of Supply & Demand",
+    "duration": 10,
+    "style": "lightblue",
+    "voice":"male",
+    "completed":false
   },
   {
     "id": 4,
-    "type": "Science",
-    "title": "The Math Magician",
-    "description": "The World of Math",
-    "time": "60 minutes",
-    "color": "green"
+    "topic": "Business",
+    "name": "The Growth Expert",
+    "subject": "Scaling Your Business Successfully",
+    "duration": 20,
+    "style": "#ffab91",
+    "voice":"female",
+    "completed":false
   },
   {
     "id": 5,
-    "type": "Science",
-    "title": "The AI Guru",
-    "description": "The World of AI",
-    "time": "60 minutes",
-    "color": "red"
+    "topic": "Language",
+    "name": "Verba the Vocabulary Builder",
+    "subject": "English Literature",
+    "duration": 30,
+    "style": "yellow",
+    "voice":"female",
+    "completed":false
   },
   {
     "id": 6,
-    "type": "Science",
-    "title": "The Physics Guru",
-    "description": "The World of Physics",
-    "time": "60 minutes",
-    "color": "#a7ffeb"
+    "topic": "History",
+    "name": "Memo, the Memory Keeper",
+    "subject": "World Wars: Causes & Effects",
+    "duration": 15,
+    "style": "orange",
+    "voice":"female",
+    "completed":true
+  },
+  {
+    "id": 7,
+    "topic": "Coding",
+    "name": "Coding, the Logic Hacker",
+    "subject": "Intro to if-Else Statements",
+    "duration": 30,
+    "style": "#76ff03 ",
+    "voice":"female",
+    "completed":true
+  },
+  {
+    "id": 8,
+    "topic": "Geography",
+    "name": "GeoMax the Map Master",
+    "subject": "The Oceans World",
+    "duration": 20,
+    "style": "lightgrey",
+    "voice":"female",
+    "completed":false
+  },
+  {
+    "id": 9,
+    "topic": "Finance",
+    "name": "The Investment Builder",
+    "subject": "Understanding Mutual Funds",
+    "duration": 25,
+    "style": "#dff9fb",
+    "voice":"female",
+    "completed":false
+  },
+  {
+    "id": 10,
+    "topic": "Maths",
+    "name": "Algebra, the Eq Queen",
+    "subject": "Solving Linear Equations",
+    "duration": 20,
+    "style": "#7ed6df",
+    "voice":"female",
+    "completed":true
+  },
+  {
+    "id": 11,
+    "topic": "Language",
+    "name": "Luna, Your Grammar Guide",
+    "subject": "Mastering Tenses in English",
+    "duration": 32,
+    "style": "#ff7979",
+    "voice":"female",
+    "completed":true
   }
+  
 ]
