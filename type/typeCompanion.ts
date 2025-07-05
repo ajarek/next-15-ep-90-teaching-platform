@@ -7,4 +7,5 @@ export type TypeCompanion = {
     style: string,
     voice?: string,
     completed?: boolean,
+    icon?:string    
 }

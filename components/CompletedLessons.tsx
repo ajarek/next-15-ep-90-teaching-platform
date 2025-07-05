@@ -11,7 +11,7 @@ import Image from 'next/image'
 
 const CompletedLessons = () => {
   return (
-    <div>
+    <div className='w-full border-2 rounded-2xl p-4'>
       <h1 className='text-3xl font-bold'>Recently completed lessons</h1>
       <Table className='w-full'>
         <TableHeader>
@@ -28,20 +28,23 @@ const CompletedLessons = () => {
               <TableRow key={item.id}>
                 <TableCell>
                   <div className='flex items-center gap-4'>
-                    <Image
-                      src={'/icons/coding.svg'}
-                      alt='icon'
-                      width={50}
-                      height={50}
-                    />
+                    <div className=' w-12 h-12 rounded-sm flex items-center justify-center ' style={{backgroundColor:item.style}}>
+                      <Image
+                        src={item.icon}
+                        alt='icon'
+                        width={30}
+                        height={30}
+                      />
+                    </div>
+                    
                     <div className='flex flex-col items-start gap-1 '>
                       <h2 className='text-xl font-semibold'>{item.name}</h2>
                       <p>{item.subject}</p>
                     </div>
                   </div>
                 </TableCell>
-                <TableCell>{item.topic}</TableCell>
-                <TableCell>{item.duration}</TableCell>
+                <TableCell > <p className='w-fit bg-primary text-background  px-4 py-2 rounded-full' >{item.topic}</p></TableCell>
+                <TableCell className='font-semibold'>{item.duration}</TableCell>
               </TableRow>
             ))}
         </TableBody>

@@ -7,7 +7,8 @@
     "duration": 45,
     "style": "#fce4ec",
     "voice":"male",
-    "completed":true
+    "completed":true,
+    "icon":"/icons/science.svg"
     
   },
   {
@@ -18,7 +19,8 @@
     "duration": 30,
     "style": "violet",
     "voice":"male",
-    "completed":false
+    "completed":false,
+    "icon":"/icons/maths.svg"
   },
   {
     "id": 3,
@@ -28,7 +30,8 @@
     "duration": 10,
     "style": "lightblue",
     "voice":"male",
-    "completed":false
+    "completed":true,
+    "icon":"/icons/economics.svg"
   },
   {
     "id": 4,
@@ -38,7 +41,8 @@
     "duration": 20,
     "style": "#ffab91",
     "voice":"female",
-    "completed":false
+    "completed":false,
+    "icon":""
   },
   {
     "id": 5,
@@ -48,7 +52,8 @@
     "duration": 30,
     "style": "yellow",
     "voice":"female",
-    "completed":false
+    "completed":false,
+    "icon":"/icons/language.svg"
   },
   {
     "id": 6,
@@ -58,7 +63,8 @@
     "duration": 15,
     "style": "orange",
     "voice":"female",
-    "completed":true
+    "completed":true,
+    "icon":"/icons/history.svg"
   },
   {
     "id": 7,
@@ -68,7 +74,8 @@
     "duration": 30,
     "style": "#76ff03 ",
     "voice":"female",
-    "completed":true
+    "completed":true,
+    "icon":"/icons/coding.svg"
   },
   {
     "id": 8,
@@ -78,7 +85,8 @@
     "duration": 20,
     "style": "lightgrey",
     "voice":"female",
-    "completed":false
+    "completed":false,
+    "icon":""
   },
   {
     "id": 9,
@@ -88,7 +96,8 @@
     "duration": 25,
     "style": "#dff9fb",
     "voice":"female",
-    "completed":false
+    "completed":false,
+    "icon":"/icons/economics.svg"
   },
   {
     "id": 10,
@@ -98,7 +107,8 @@
     "duration": 20,
     "style": "#7ed6df",
     "voice":"female",
-    "completed":true
+    "completed":true,
+    "icon":"/icons/maths.svg"
   },
   {
     "id": 11,
@@ -108,7 +118,8 @@
     "duration": 32,
     "style": "#ff7979",
     "voice":"female",
-    "completed":true
+    "completed":true,
+    "icon":"/icons/language.svg"
   }
   
 ]
