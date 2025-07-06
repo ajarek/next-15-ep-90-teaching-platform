@@ -8,7 +8,7 @@ import { Input } from '@/components/ui/input'
 const LearningCompanions = () => {
   const [search, setSearch] = React.useState('')
   return (
-    <div className='min-h-screen flex flex-col items-center  p-4 max-sm:px-4  gap-6'>
+    <div className='min-h-screen flex flex-col items-center py-4  gap-6'>
       <div className='w-full flex flex-wrap items-center justify-between gap-4'>
         <h1 className='text-3xl font-bold'>Companion Library</h1>
         <Input

@@ -5,7 +5,7 @@ import dataCompanions from '@/data/companions.json'
 
 export default function Home() {
   return (
-    <div className='min-h-screen flex flex-col items-center  p-4 max-sm:px-4  gap-6'>
+    <div className='min-h-screen flex flex-col items-center py-4   gap-6'>
       <h1 className='text-3xl font-bold'>Popular Companions</h1>
       <div className='w-full grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-4'>
         {dataCompanions
@@ -23,7 +23,7 @@ export default function Home() {
           ))}
       </div>
       <div className='w-full grid grid-cols-[2fr_1fr] max-sm:grid-cols-1 gap-4'>
-        <CompletedLessons />
+        <CompletedLessons label={'Recently completed lessons'}/>
         <Cta />
       </div>
     </div>

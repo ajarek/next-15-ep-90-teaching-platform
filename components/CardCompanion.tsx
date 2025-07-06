@@ -18,7 +18,7 @@ const CardCompanion = ({topic, name, subject, duration, style, completed = false
   <CardHeader>
     <div className='flex items-center justify-between'>
       <div className='w-fit px-4 h-8 flex justify-center items-center bg-primary text-background rounded-sm'>{topic}</div>
-      <div className='w-8 h-8 flex justify-center items-center bg-primary rounded-sm'>
+      <div className='size-8 flex justify-center items-center bg-primary rounded-sm'>
 
 
         <Image 

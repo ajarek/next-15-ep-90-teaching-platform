@@ -9,10 +9,11 @@ import {
 import dataCompanions from '@/data/companions.json'
 import Image from 'next/image'
 
-const CompletedLessons = () => {
+const CompletedLessons = ({label}:{label:string}) => {
+
   return (
     <div className='w-full border-2 rounded-2xl p-4'>
-      <h1 className='text-3xl font-bold'>Recently completed lessons</h1>
+      <h1 className='text-3xl font-bold'>{label}</h1>
       <Table className='w-full'>
         <TableHeader>
           <TableRow>
@@ -28,7 +29,7 @@ const CompletedLessons = () => {
               <TableRow key={item.id}>
                 <TableCell>
                   <div className='flex items-center gap-4'>
-                    <div className=' w-12 h-12 rounded-sm flex items-center justify-center ' style={{backgroundColor:item.style}}>
+                    <div className=' size-12 rounded-sm flex items-center justify-center ' style={{backgroundColor:item.style}}>
                       <Image
                         src={item.icon}
                         alt='icon'
