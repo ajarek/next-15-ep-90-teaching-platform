@@ -13,7 +13,7 @@ const Cta = () => {
             <Image src="images/cta.svg" alt="cta" width={362} height={232} />
             <Button variant={'destructive'} className="flex items-center gap-2">
                 <Image src="/icons/plus.svg" alt="plus" width={12} height={12}/>
-                <Link href="/companions/new">
+                <Link href="/new-companions">
                     <p>Build a New Companion</p>
                 </Link>
             </Button>
